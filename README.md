@@ -1,13 +1,13 @@
 # ITGPG — IT Department Website
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue?logo=github)](https://itgpg.github.io/it/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-blue?logo=github)](https://itgpg.github.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The official website for the **Information Technology Department at Government Polytechnic Gandhinagar**. 
 
 Built entirely as a **Thick-Client Serverless Application**, this static site dynamically fetches study materials, event details, and digital certificates natively from Google Drive and YouTube APIs, incurring **$0 in cloud infrastructure costs**.
 
-🌐 **Live Demo**: [itgpg.github.io/it](https://itgpg.github.io/it/)
+🌐 **Live Demo**: [itgpg.github.io](https://itgpg.github.io/)
 
 ---
 
@@ -59,8 +59,8 @@ Want to run the site locally to test changes?
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/itgpg/it.git
-cd it
+git clone https://github.com/itgpg/itgpg.github.io.git
+cd itgpg.github.io
 
 # 2. Install dependencies (Requires Ruby 2.7+)
 gem install bundler

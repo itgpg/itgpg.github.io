@@ -53,6 +53,6 @@ it/
 
 ## Key Architectural Patterns
 
-1. **Routing Strategy**: Instead of using front-matter permalinks in a single folder, we use physical folders with `index.html` files. This keeps URLs clean (e.g., `itgpg.github.io/it/gallery/` instead of `itgpg.github.io/it/gallery.html`).
+1. **Routing Strategy**: Instead of using front-matter permalinks in a single folder, we use physical folders with `index.html` files. This keeps URLs clean (e.g., `itgpg.github.io/gallery/` instead of `itgpg.github.io/gallery.html`).
 2. **Separation of Concerns**: `_includes` breaks down massive HTML files into manageable, atomic pieces.
 3. **Data Isolation**: `_data/` is strictly for content. `.js` files are strictly for logic. Never mix the two.

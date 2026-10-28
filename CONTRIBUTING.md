@@ -23,7 +23,7 @@ This project is maintained by an academic institution. All contributors are expe
 
 ### Reporting Bugs
 If you find a bug (e.g., broken links, UI glitches, API failures):
-1. Check the [Issues](https://github.com/itgpg/it/issues) tab to ensure it hasn't already been reported.
+1. Check the [Issues](https://github.com/itgpg/itgpg.github.io/issues) tab to ensure it hasn't already been reported.
 2. Open a new issue with a clear title.
 3. Describe the exact steps to reproduce the bug.
 4. Include screenshots and browser/OS information if possible.

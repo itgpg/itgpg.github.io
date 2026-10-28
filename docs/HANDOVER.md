@@ -6,7 +6,7 @@ If you are graduating or stepping down from your role as the lead student mainta
 
 Ensure the incoming maintainer receives access to the following:
 
-- [ ] **GitHub Repository**: Add them as an Admin or Maintainer on the `itgpg/it` GitHub repository.
+- [ ] **GitHub Repository**: Add them as an Admin or Maintainer on the `itgpg/itgpg.github.io` GitHub repository.
 - [ ] **Google Cloud Console**: Introduce them to the managing faculty to get IAM access to the Google Cloud Project housing the API keys.
 - [ ] **Google Drive**: Ensure their email is added as an **Editor** to the IT Department's root shared Drive folders (Certificates, Gallery, Study Materials, Newsletters).
 

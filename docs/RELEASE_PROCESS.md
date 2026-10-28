@@ -25,7 +25,7 @@ Never commit directly to `main`.
 
 After merging:
 1. Wait ~60 seconds for the GitHub Actions deployment to finish.
-2. Visit the live site: `https://itgpg.github.io/it/`
+2. Visit the live site: `https://itgpg.github.io/`
 3. Perform a Hard Refresh (`Ctrl+Shift+R`) to clear your local cache.
 4. Verify the new feature works.
 

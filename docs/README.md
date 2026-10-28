@@ -12,8 +12,8 @@ Technical documentation for the **ITGPG Website** — the IT Department portal o
 
 ## Quick Links
 
-- **Live Site**: [itgpg.github.io/it](https://itgpg.github.io/it/)
-- **Repository**: [github.com/itgpg/it](https://github.com/itgpg/it)
+- **Live Site**: [itgpg.github.io](https://itgpg.github.io/)
+- **Repository**: [github.com/itgpg/itgpg.github.io](https://github.com/itgpg/itgpg.github.io)
 - **Root README**: [../README.md](../README.md)
 - **Maintainer Quick-Start**: [../MAINTAINING.md](../MAINTAINING.md)
 

@@ -36,8 +36,8 @@ gem install bundler
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/itgpg/it.git
-   cd it
+   git clone https://github.com/itgpg/itgpg.github.io.git
+   cd itgpg.github.io
    ```
 
 2. **Install Jekyll and dependencies:**

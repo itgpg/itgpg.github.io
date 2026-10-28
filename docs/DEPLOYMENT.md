@@ -7,7 +7,7 @@ The ITGPG website leverages **GitHub Pages** for continuous deployment. There ar
 1. **Commit & Push**: Whenever a developer or maintainer pushes changes to the `main` branch on GitHub, a deployment is triggered.
 2. **GitHub Actions**: GitHub spins up a secure runner, checks out the codebase, and executes a Jekyll build.
 3. **Static Generation**: Jekyll compiles all Markdown files, injects `_data` configurations, and generates the final static HTML/CSS/JS files into a hidden `_site/` directory.
-4. **Publishing**: The runner takes the contents of `_site/` and serves it securely over HTTPS at `https://itgpg.github.io/it/`.
+4. **Publishing**: The runner takes the contents of `_site/` and serves it securely over HTTPS at `https://itgpg.github.io/`.
 
 ---
 
@@ -15,7 +15,7 @@ The ITGPG website leverages **GitHub Pages** for continuous deployment. There ar
 
 If you push a change and it doesn't appear on the live site:
 
-1. Navigate to the **[Actions tab](https://github.com/itgpg/it/actions)** in the GitHub repository.
+1. Navigate to the **[Actions tab](https://github.com/itgpg/itgpg.github.io/actions)** in the GitHub repository.
 2. Look for the most recent workflow run (usually named `pages-build-deployment`).
 3. A **Green Checkmark** means the build was successful. (If you still don't see changes, perform a hard refresh `Ctrl+Shift+R` to clear browser cache).
 4. A **Red X** means the build failed. 

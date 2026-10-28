@@ -1,0 +1,48 @@
+---
+layout: default
+title: Page Not Found
+permalink: /404.html
+---
+
+<div class="container text-center my-5 py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <h1 class="display-1 text-primary fw-bold">404</h1>
+            <h2 class="h4 mb-3" id="error-title">Page Not Found</h2>
+            <p class="text-muted" id="redirect-msg">We couldn't find the page you were looking for.</p>
+            <div id="redirect-spinner" class="spinner-border text-primary my-3" role="status" style="display: none;">
+                <span class="visually-hidden">Redirecting...</span>
+            </div>
+            <div class="mt-4">
+                <a href="{{ '/' | relative_url }}" class="btn btn-primary px-4 py-2">
+                    <i class="fas fa-home me-2"></i>Back to Home
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    var pathname = window.location.pathname;
+    // Handle backward-compatibility redirect for legacy /it/ or /it URLs (bookmarks, old QR codes)
+    if (pathname === '/it' || pathname.indexOf('/it/') === 0) {
+        var newPath = pathname.replace(/^\/it(\/|$)/, '/');
+        var target = newPath + window.location.search + window.location.hash;
+        var redirectMsg = document.getElementById('redirect-msg');
+        var redirectSpinner = document.getElementById('redirect-spinner');
+        var errorTitle = document.getElementById('error-title');
+        
+        if (redirectMsg) {
+            redirectMsg.innerText = 'Redirecting to updated address: ' + target;
+        }
+        if (errorTitle) {
+            errorTitle.innerText = 'Redirecting...';
+        }
+        if (redirectSpinner) {
+            redirectSpinner.style.display = 'inline-block';
+        }
+        window.location.replace(target);
+    }
+})();
+</script>
